@@ -44,3 +44,5 @@ pokemonterm.py -h
 ex:
 pokemonterm.py -p kakuna
 ```
+# Screenshot
+![Alt text](https://www.digitalbrekke.com/res/pokemontermScreenShot.png "Main Screen")
