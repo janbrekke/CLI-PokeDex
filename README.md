@@ -21,7 +21,7 @@ This project uses UniCurses (yes i know it's old) to make is X-Platform. Due to 
 
 (ex: /usr/bin/python)
 
-Think you can run "whereis python3.6" (change 3.6 to what ever version you have) too to find it.
+Think you can run "***whereis python3.6***" (change 3.6 to what ever version you have) too to find it.
 Don't arrest me if I'm wrong here..
 
 NOT 100% sure about this :P
