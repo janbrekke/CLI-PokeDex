@@ -20,12 +20,13 @@ To install the Prerequisites, simply run the following command:
 pip install -r requirements.txt
 ```
 # Usage
-```
 
 **Help**
-*pokemonterm.py -h*
-
+```
+pokemonterm.py -h
+```
 **Pokemon**
+```
 ex:
-*pokemonterm.py -p kakuna*
+pokemonterm.py -p kakuna
 ```
