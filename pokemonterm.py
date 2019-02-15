@@ -27,7 +27,7 @@ parser.add_argument('-p', '--pokemon', type=str, help='Enter the name of a Pokem
 args = parser.parse_args()
 
 #The PokeAPI database
-pokemon_url = 'https://pokeapi.co/api/v2/pokemon/'+args.pokemon+'/'
+pokemon_url = 'https://pokeapi.co/api/v2/pokemon/'+args.pokemon.lower()+'/'
 pokemon_response = requests.get(pokemon_url)
 
 #Two empty list used by the FOR loops to append their findings
@@ -122,19 +122,19 @@ infoPanel = new_panel(abilitybox2)
 noecho()
 panel_above(abilitybox2)
 
-namebox = newwin(1,sizeX -110,4,4)
+namebox = newwin(1,sizeX -112,4,4)
 wbkgd(namebox,COLOR_PAIR(3),A_BOLD)
 infoPanel = new_panel(namebox)
 noecho()
 panel_above(namebox)
 
-weightbox = newwin(1,sizeX -110,6,4)
+weightbox = newwin(1,sizeX -112,6,4)
 wbkgd(weightbox,COLOR_PAIR(3),A_BOLD)
 infoPanel = new_panel(weightbox)
 noecho()
 panel_above(weightbox)
 
-heightbox = newwin(1,sizeX -110,8,4)
+heightbox = newwin(1,sizeX -112,8,4)
 wbkgd(heightbox,COLOR_PAIR(3),A_BOLD)
 infoPanel = new_panel(heightbox)
 noecho()
@@ -143,11 +143,11 @@ panel_above(heightbox)
 
 #All Text strings on the main window
 mvwaddstr(namebox, 0, 0, name)
-mvwaddstr(info, 2, 9, namedata)
+mvwaddstr(info, 2, 15, namedata)
 mvwaddstr(weightbox, 0, 0, weight)
-mvwaddstr(info, 4, 10, weightdata)
+mvwaddstr(info, 4, 15, weightdata)
 mvwaddstr(heightbox, 0, 0, height)
-mvwaddstr(info, 6, 10, heightdata)
+mvwaddstr(info, 6, 15, heightdata)
 mvwaddstr(categorybox, 0, 0, category)
 mvwaddstr(categorybox2, 1, 1, categoryPrint)
 mvwaddstr(abilitybox, 0, 0, ability)
