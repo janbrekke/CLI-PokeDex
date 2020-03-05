@@ -40,12 +40,11 @@ pokemonterm.py -h
 ex:
 pokemonterm.py -p kakuna
 ```
-# Support
-Would love to help you, but i'm only an amature developer soooo.. No, sorry!
+# About
 The code is probably full of BUGS, and there is probably a much better solution to this,
-but this was made with love, and passion........
-Okay well, it's what i could do at the moment with the current knowledge.
-But HEY, i'm still learning :)
+but this was an exam we had as school. Not too proud of this one but it's something at least.
+It's what i could come up with after 2 weeks of python training :stuck_out_tongue:
+Maybe it can at least help you in any way even though it doesn't work poprely.
 
 # Screenshot
 ![Alt text](https://www.digitalbrekke.com/res/pokemontermScreenShot.png "Main Screen")
